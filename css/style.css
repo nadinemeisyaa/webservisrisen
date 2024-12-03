@@ -52,16 +52,6 @@ body {
   transition: 0.2s;
 }
 
-.navbar .navbar-extra a {
-  color: #ffffff;
-  margin: 0 0.5rem;
-}
-
-.navbar .navbar-extra a:hover {
-  color: var(--secondary);
-  transition: 0.2s;
-}
-
 /* Logo */
 .navbar img {
   width: 150px;
