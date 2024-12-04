@@ -332,7 +332,7 @@ margin: 12px 0;
 
 /* Untuk layar dengan lebar kurang dari 480px (Mobile Ponsel Kecil) */
 @media (max-width: 480px) {
-    header {
+    .hero-section {
         font-size: 18px;
     }
     navbar a {
