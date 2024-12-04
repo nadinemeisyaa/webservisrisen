@@ -316,3 +316,30 @@ margin: 12px 0;
   color: white;
 }
 
+/* Untuk layar dengan lebar kurang dari 768px (Mobile dan Tablet Kecil) */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px; /* Ukuran font lebih kecil untuk ponsel */
+    }
+    navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    hero-section {
+        grid-template-columns: 1fr; /* Satu kolom untuk tampilan mobile */
+    }
+}
+
+/* Untuk layar dengan lebar kurang dari 480px (Mobile Ponsel Kecil) */
+@media (max-width: 480px) {
+    header {
+        font-size: 18px;
+    }
+    navbar a {
+        padding: 10px;
+        font-size: 14px; /* Mengurangi ukuran font di ponsel kecil */
+    }
+    footer {
+        font-size: 12px;
+    }
+}
